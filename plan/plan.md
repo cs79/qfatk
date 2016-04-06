@@ -16,6 +16,9 @@
 ### homebrew / scraped:
 - google finance special url
 - check bookmarks for others
+- get S&P 500 list and scrape regularly
+- get zero-commission Fidelity ticker list & scrape regularly
+- have "master table" of tickers with columns for attribute flags (s&p500, free trade on X web platform, etc.)
 
 ### non-price signals
 - check quantopian / books / other sources for likely useful signals
@@ -25,7 +28,7 @@
 ## data storage
 - not needed for canned per se
 - start with csv for scraped
-- look for longer term web / db-based format to call FROM using tooling
+- look for longer term web / db-based format to call FROM using tooling (mysql, hdf5, etc.)
 
 ## data tooling
 - pandas, numpy, usual scientific python suspects
