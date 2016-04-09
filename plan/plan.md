@@ -61,3 +61,8 @@
 - consider simultaneous lookaheads and how fruitful-looking future actions may dictate restraint in present window
 - consider "learning" behavior of T1 algos
 - MEASURE: score T1 models as they make predictions (can batch this end of day every day or try for near-real time)
+
+## Refactoring and code cleanup
+- aim for PEP-8
+- use more specifically targeted imports in various functions (rather than import pandas as pd, e.g. - just pull the needed functions)
+- error handling for weird inputs
